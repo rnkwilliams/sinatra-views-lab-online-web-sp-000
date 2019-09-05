@@ -5,9 +5,9 @@
     
     <body>
       <h1>Today</h1>
-      <%day = Date.today.striftime("%A")%>
-      <%month_day = Date.today.striftime("%B %d")%>
-      <%year = Date.today.striftime("%Y")%>
+      <%day = Date.today.strftime("%A")%>
+      <%month_day = Date.today.strftime("%B %d")%>
+      <%year = Date.today.strftime("%Y")%>
       <p><%="The date is #{day}, #{month_day}, #{year}"%></p>
     </body>
   </html>
