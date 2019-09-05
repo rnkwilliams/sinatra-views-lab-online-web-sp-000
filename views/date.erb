@@ -7,7 +7,7 @@
       <h1>Today</h1>
       <%day = Date.today.striftime("%A")%>
       <%month = Date.today.striftime("%B %d")%>
-      <%year = Date.today.striftime("%A")%>
-      <p><%="The date is " %></p>
+      <%year = Date.today.striftime("%Y")%>
+      <p><%="The date is #{day} " %></p>
     </body>
   </html>
